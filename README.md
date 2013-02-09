@@ -94,7 +94,8 @@ RablRails.configure do |config|
   # config.json_engine = :oj
   # config.xml_engine = 'LibXML'
   # config.use_custom_responder = false
-	# config.default_responder_template = 'show'
+  # config.default_responder_template = 'show'
+  # config.render_jsonp_callback = true	
 end
 ```
 
